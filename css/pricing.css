@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper1 {
+  width: 100%;
+  height: unset;
+  padding-top: 3vmax;
+  padding-bottom: 10vmax;
+  background-image: url(../img/pricing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.w1back {
+  height: 2.5vmax;
+  margin-left: 5vmax;
+}
+
+.backicon {
+  width: 2vmax;
+  height: 2vmax;
+  margin-top: 0.25vmax;
+  background-image: url(../img/icons/icon14.png);
+  background-position: center;
+  background-size: cover;
+  transform: rotate(90deg);
+  float: left;
+}
+
+.backtext {
+  float: left;
+  height: 2.5vmax;
+  margin-left: 1vmax;
+  line-height: 2.5vmax;
+  font-size: 1.4vmax;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.w1container {
+  width: 70%;
+  margin: auto;
+  margin-top: 5vmax;
+  padding-top: 2vmax;
+  padding-bottom: 5vmax;
+  background-color: rgba(250, 250, 250, 0.8);
+}
+
+.w1container h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.7vmax;
+}
+
+.w1container h2 {
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 1vmax;
+  font-weight: 400;
+}
+
+form {
+  width: 100%;
+  margin: auto;
+  margin-top: 5vmax;
+}
+
+#name,
+#surname,
+#phone,
+#mail,
+#company,
+#link1,
+#link2 {
+  width: 20%;
+  height: 3vmax;
+  min-height: 40px;
+  margin-left: 10%;
+  border-radius: 5px;
+  text-align: right;
+  padding-right: 1%;
+  font-size: 0.9vmax;
+  border: 2px solid #27ae60;
+  float: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#mail {
+  width: 35%;
+  margin-top: 7vmax;
+}
+
+#company {
+  width: 35%;
+  margin-top: 7vmax;
+  margin-bottom: 7vmax;
+}
+
+.linkq1,
+.linkq2 {
+  width: 80%;
+  height: 6vmax;
+  margin: auto;
+  clear: both;
+  margin-bottom: 7vmax;
+}
+
+#linktext {
+  font-size: 1.1vmax;
+  text-align: right;
+}
+
+#link1,
+#link2 {
+  width: 100%;
+  float: right;
+  margin-top: 0.5vmax;
+}
+
+.container2,
+.container3,
+.container4 {
+  width: 80%;
+  height: 18vmax;
+  margin: auto;
+}
+
+.container3 {
+  height: 15vmax;
+}
+
+.c2box1,
+.c2box2,
+.c3box1,
+.c3box2,
+.c4box1,
+.c4box2 {
+  width: 48%;
+  height: 15vmax;
+  float: left;
+  text-align: center;
+  font-size: 1vmax;
+}
+
+.c2box1 h3,
+.c2box2 h3,
+.c3box1 h3,
+.c3box2 h3,
+.c4box1 h3,
+.c4box2 h3 {
+  font-size: 1.1vmax;
+  font-weight: 500;
+  color: #27ae60;
+}
+
+#c2b1,
+#c2b2,
+#c4b1,
+#c4b2 {
+  width: 0.8vmax;
+  height: 0.8vmax;
+  margin-top: 0.5vmax;
+}
+
+.c2box2,
+.c3box2,
+.c4box2 {
+  margin-left: 4%;
+}
+
+.inputs {
+  width: 60%;
+  float: right;
+  text-align: left;
+}
+
+.container4 {
+  height: 17vmax;
+}
+
+.c4box1,
+.c4box2 {
+  height: 10vmax;
+}
+
+.container5 {
+  width: 80%;
+  height: 20vmax;
+  margin: auto;
+}
+
+.c5box1,
+.c5box2 {
+  width: 48%;
+  height: 20vmax;
+  float: left;
+}
+
+.c5box2 {
+  margin-left: 4%;
+}
+
+#aboutCompany,
+#questions {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding-right: 1%;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 0.9vmax;
+  border: 2px solid #27ae60;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.checksubmit {
+  width: 35%;
+  height: 3vmax;
+  margin-top: 5%;
+  margin-left: 60%;
+  font-size: 1vmax;
+}
+
+.bottom {
+  width: 80%;
+  height: 4vmax;
+  margin: auto;
+}
+
+#buttonf {
+  float: right;
+  width: 10vmax;
+  height: 4vmax;
+  border-radius: 10px;
+  font-size: 1.4vmax;
+  color: white;
+  cursor: pointer;
+  background-color: #27ae60;
+  border: 2px solid #27ae60;
+}
+
+/*
+  !s////////////////////////////////////////////////////////////////
+  !s////////////////////////////////////////////////////////////////
+  !s////////////////////////////////////////////////////////////////
+  
+  !Respo
+  
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  */
+
+@media screen and (orientation: portrait) {
+  #name,
+  #surname {
+    width: 35%;
+    font-size: 15px;
+    height: 45px;
+  }
+  #phone {
+    margin-top: 7vmax;
+    width: 35%;
+    font-size: 15px;
+    height: 45px;
+  }
+  #mail {
+    margin-top: 7vmax;
+    width: 35%;
+    font-size: 15px;
+    height: 45px;
+  }
+  #company {
+    width: 40%;
+    float: none;
+    margin-left: 30%;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .w1back {
+    height: 4vmax;
+  }
+  .backicon {
+    width: 3.5vmax;
+    height: 3.5vmax;
+  }
+  .backtext {
+    height: 4vmax;
+    line-height: 4vmax;
+    font-size: 2.5vmax;
+  }
+  .w1container {
+    width: 90%;
+    padding-bottom: 6vmax;
+  }
+  .w1container h1 {
+    font-size: 22px;
+  }
+  .w1container h2 {
+    font-size: 12px;
+  }
+  #name,
+  #surname,
+  #phone,
+  #mail,
+  #company,
+  #link {
+    width: 70%;
+    margin-left: 15%;
+    min-height: 50px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #link {
+    width: 90%;
+    margin-left: 5%;
+    float: none;
+  }
+
+  #surname,
+  #phone,
+  #mail,
+  #company {
+    margin-top: 6vmax;
+  }
+
+  #company {
+    margin-bottom: 6vmax;
+  }
+
+  #linktext {
+    text-align: center;
+    font-size: 12px;
+  }
+  .linkq1,
+  .linkq2 {
+    margin-bottom: 14vmax;
+  }
+  #link1,
+  #link2 {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .container2,
+  .container3,
+  .container4 {
+    height: 34vmax;
+  }
+
+  .c2box1,
+  .c2box2,
+  .c3box1,
+  .c3box2,
+  .c4box1,
+  .c4box2 {
+    width: 100%;
+    font-size: 13px;
+    margin: auto;
+    height: unset;
+  }
+  .c2box1 h3,
+  .c2box2 h3,
+  .c3box1 h3,
+  .c3box2 h3,
+  .c4box1 h3,
+  .c4box2 h3 {
+    font-size: 14px;
+  }
+  #c2b1,
+  #c2b2,
+  #c4b2,
+  #c4b1 {
+    width: 1.5vmax;
+    height: 1.5vmax;
+    margin-top: 0.5vmax;
+  }
+  .container5 {
+    margin-top: 8vmax;
+    height: 50vmax;
+  }
+  .c5box1,
+  .c5box2 {
+    width: 100%;
+    height: 23vmax;
+    margin: auto;
+  }
+  .c5box2 {
+    margin-top: 4vmax;
+  }
+  #aboutCompany,
+  #questions {
+    font-size: 12px;
+  }
+  .bottom {
+    margin-top: 3vmax;
+    height: 5vmax;
+  }
+  #buttonf {
+    width: 14vmax;
+    height: 5vmax;
+    font-size: 13px;
+  }
+  .checksubmit {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 11px;
+  }
+  #checktext {
+    line-height: 1vmax;
+  }
+}

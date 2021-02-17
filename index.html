@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPP_WEB. | Marketing internetowy dla Ciebie i Twojego biznesu</title>
+    <meta name="description" content="Profesjonalne strony internetowe. Skuteczne rozwiązania dla
+    Twojego biznesu.">
+    <meta name="keywords" content="strona internetowa, biznes, firma, marketing internetowy, sklep internetowy,
+    blog, wizytówka online, socialmedia, socialmedia agency, add">
+    <meta name="theme-color" content="#27ae60">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+    <link rel="shortcut icon" href="img/icons/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+<body>
+  <script type="module">
+    import jump from "./node_modules/jump.js/dist/jump.module.js";
+  
+  var button1 = document.getElementById("aboutbtn");
+  var button2 = document.getElementById("offerbtn");
+  var button3 = document.getElementById("portfoliobtn");
+  var button4 = document.getElementById("contactbtn");
+  var button5 = document.getElementById("arrowup");
+  var button6 = document.getElementById("w1button");
+  
+  
+  button1.addEventListener("click", function (event) {
+    jump("#wrapper2", {
+      duration: 350,
+    });
+    document.getElementById("nav").checked = false;
+  });
+  
+  button2.addEventListener("click", function (event) {
+    jump("#wrapper4", {
+      duration: 550,
+    });
+    document.getElementById("nav").checked = false;
+  });
+  
+  button3.addEventListener("click", function (event) {
+    jump("#wrapper7", {
+      duration: 750,
+    });
+    document.getElementById("nav").checked = false;
+  });
+  
+  button4.addEventListener("click", function (event) {
+    jump("#wrapper8", {
+      duration: 1050,
+    });
+    document.getElementById("nav").checked = false;
+  });
+  button5.addEventListener("click", function (event) {
+    jump("#wrapper1", {
+      duration: 550,
+    });
+  });
+  
+  button6.addEventListener("click", function (event) {
+    jump("#wrapper4", {
+      duration: 350,
+    });
+  });
+  
+  
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+  <!-- 
+    =============================================
+
+    Landing page/Wrapper1
+
+    =============================================
+  -->
+     <div id="wrapper1">
+       <!--Nav&Logo-->
+        <nav>
+          <input type="checkbox" id="nav" class="hidden" />
+          <label for="nav" class="nav-btn">
+            <i></i>
+            <i></i>
+            <i></i>
+          </label>
+          <div class="logo">
+            <a href="#">WEB.<section style="float: left;" id="logoa">SPP_</section></a>
+          </div>
+          <div class="nav-wrapper" id="menu">
+            <ul>
+              <li><a href="#" id="aboutbtn">O nas</a></li>
+              <li><a href="#" id="offerbtn">Oferta</a></li>
+              <li><a href="#" id="portfoliobtn">Portfolio</a></li>
+              <li><a href="#" id="contactbtn">Kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!--Content-->
+      <div class="w1container">
+          <div class="text">
+            <div class="title">
+              <h1>Prowadzisz <a>Biznes</a>?</h1>
+            </div>
+            <div class="description">
+              <h2>Skorzystaj z naszej ofety i pozwól znaleźć się
+                 <a>swoim klientom</a> w internecie!<br>
+                Pomożemy Ci zaistnieć <a>ONLINE</a>!</h2>
+            </div>
+            <div id="w1button">
+              <div class="w1btntext">
+                SPRAWDŹ!
+              </div>
+              <div class="btnicon"></div>
+            </div>
+          </div>
+          <div class="w1photo"></div>
+      </div>
+    </div>
+      
+  <!-- 
+    =============================================
+
+    Wrapper2
+
+    =============================================
+  -->
+  
+      <div id="wrapper2">
+      <!--photo-->
+        <div class="w2photo"></div>
+      <!--Title&description-->
+        <div class="w2content" >
+          <div class="w2contenttitle">Kilka słów <a>o nas...</a></div>
+          <div class="w2contentdesc">
+            Jesteśmy młodą, jednak godną zaufania firmą. Kieruje nami chęć
+            szerokopojętego rozwoju, chęć mierzenia się z wyzwaniami stawianymi
+            przez Państwa projekty. Jesteśmy młodzi, energiczni, kreatywni oraz
+            pełni pozytywnej energii.
+            <br /><br />
+            Zdajemy sobie sprawę, jak dużą rolę w dzisiejszym świecie pełni
+            internet i jak ważne jest to, aby nie zostać "w tyle".<br />
+            Mówi się, że biznes którego nie ma w internecie - nie istnieje.<br />
+            Ludzie coraz więcej czasu spędzają w sieci, i to właśnie tam będą
+            szukać wszystkiego czego potrzebują.<br>
+            Ale... Czy znajdą Ciebie?<br></br>
+            <a>Pomożemy ci przenieść Twój biznes do internetu.<br>Bądź o krok przed konkurencją!</a>
+          </div>
+        </div>
+        <!--Go up icon-->
+       <div id="arrowup">
+        <div class="arrowicon"></div>
+      </div>
+    </div>
+
+<!-- 
+    =============================================
+
+    Wrapper3
+
+    =============================================
+  -->
+      <div id="wrapper3">
+        <!--
+        Boxes
+      -->
+        <div class="w3container">
+          <!--1st box-->
+          <div class="w3box1">
+            <div class="w3boxpic1"></div>
+            <div class="w3boxtitle">Profesjonalizm</div>
+            <div class="w3boxdescription">
+              Do każdego zlecenia podchodzimy indywidualnie. Cenimy sobie terminowość oraz punktualność.
+              Jesteśmy dla Ciebie dostępni.
+            </div>
+          </div>
+        <!--2nd box-->
+          <div class="w3box2">
+            <div class="w3boxpic2"></div>
+            <div class="w3boxtitle">Technologia</div>
+            <div class="w3boxdescription">
+              Każdy nasz projekt jest nowoczesny oraz w pełni funkcjonalny. Posiada wszystko czego potrzebujesz Ty i 
+              Twoja firma.
+            </div>
+          </div>
+          <!--3rd box-->
+          <div class="w3box3">
+            <div class="w3boxpic3"></div>
+            <div class="w3boxtitle">Ceny</div>
+            <div class="w3boxdescription">
+              Nasze ceny są uczciwe, oraz adekwatne do wielkości projektu. Pamiętaj mamy Ci pomóc a nie sprawić, że zbankrutujesz!
+            </div>
+          </div>
+          <!--4th box-->
+          <div class="w3box4">
+            <div class="w3boxpic4"></div>
+            <div class="w3boxtitle">Zespół</div>
+            <div class="w3boxdescription">
+              Jesteśmy młodymi ludźmi pełnymi pasji oraz zaangażowania. Nie boimy się wyzwań dlatego śmiało oddaj się w nasze ręce.
+            </div>
+          </div>
+        </div>
+        </div>
+
+<!-- 
+    =============================================
+
+    Wrapper4
+
+    =============================================
+  -->
+    <div id="wrapper4">
+       <!--Title and description-->
+      <div class="w4container1">
+        <div class="w4container1box">
+          <h1>Strony <a>Internetowe</a>!</h1>
+          <div class="w4c1desc">
+            Oferujemy spersonalizowane oraz indywidualnie zaprojektowane <a>strony 
+            intenetowe</a> skrojone na miarę Twoich oczekiwań oraz potrzeb.
+            <br><br>
+            Pomożemy Ci przenieść Twój biznes do internetu i trafić do osób,
+            które szukają oferowanej przez Ciebie usługi w internecie. <a>Pozwól
+            im się znaleźć!</a><br><br>
+            Skontaktuj się z nami! Przedstaw nam wizję <a>swojego pomysłu</a> a my 
+            spróbujemy wcielić go w życie jak najszybciej. <br><br>
+          </div>
+        </div>    
+      </div>
+       <!--boxes-->
+      <div class="w4container2">
+        <div class="w4container2box">
+           <!--box 1-->
+          <div class="w4s1">
+            <div class="w4icon1"></div>
+            <div class="w4stitle">
+              Responsywność
+            </div>
+            <div class="w4description">
+              Twoja strona będzie wyglądać dobrze na każdym urządzeniu. Od komputera aż po telefony
+            </div>
+          </div>
+          <!--box 2-->
+          <div class="w4s2">
+            <div class="w4icon2"></div>
+            <div class="w4stitle">
+              Przejrzystość
+            </div>
+            <div class="w4description">
+              Klient po wejściu na Twoją stronę łatwo znajdzie to czego szuka i co może go zaciekawić.
+            </div>
+          </div>
+          <div class="clear"></div>
+          <!--box 3-->
+          <div class="w4s3">
+            <div class="w4icon3"></div>
+            <div class="w4stitle">
+              Funkcjonalność
+            </div>
+            <div class="w4description">
+              Twoja strona będzie miała wszystko czego potrzebujesz Ty oraz Twoi klienci.
+            </div>
+          </div>
+          <!--box 4-->
+          <div class="w4s4">
+            <div class="w4icon4"></div>
+            <div class="w4stitle">
+              Prostota
+            </div>
+            <div class="w4description">
+              W prostocie jest klucz. We wszystkim trzeba znać umiar. Prostota jest czymś wspaniałym.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 
+    =============================================
+
+    Wrapper5
+
+    =============================================
+  -->
+      <div class="wrapper5">
+        <!--Title and description-->
+        <div class="w5section2">
+          <h1>Socialmedia!</h1>
+          <h3>
+            Prowadzenie ciekawych oraz wartościowych profili w mediach społecznościowych
+            to bardzo czasochłonne zajęcie, dlatego <a>zleć to nam</a>!<br><br>
+            <a>Zajmiemy się wszystkim</a>- od przygotowania treści, aż po publikacje
+            ich na Twoich profilach. Pomożemy Ci rówież analizować to jak działają
+            Twoje socialmedia.<br><br>
+            Dzięki naszej pomocy <a>zyskasz mnóstwo cennego czasu</a> bez obaw o to jak prezentuje
+            się Twoja firma, marka lub osoba w internecie!
+          </h3>
+        </div>
+        <!--Photo-->
+        <div class="w5section1">
+          <div class="w5img"></div>
+        </div>
+        
+      </div>
+<!-- 
+    =============================================
+
+    Wrapper6
+
+    =============================================
+  -->
+      <div id="wrapper6">
+        <!--Title-->
+        <div class="w6container2"></div>
+        <div class="w6sectiontitle">
+          Jak będzie wyglądać <a>nasza współpraca</a>?
+        </div>
+        <!--List of steps-->
+        <div class="w6container1">
+          <!--Step 1-->
+          <div class="w6section">
+            <div class="w6number">1.</div>
+            <div class="w6title">Rozmowa z klientem</div>
+            <div id="w6icon1" onclick="desc(1)"></div>
+            <div id="w6icon11" onclick="desc()"></div>
+          </div>
+          <!--Step 1 DESCRIPTION-->
+          <div id="w6sectionactive1">
+            Porozmawiamy o projekcie, określimy założenia projektu, czas, funkcjonalności, odpowiemy 
+            na wszelkie pytania oraz udzielimy wszystkich informacji. 
+          </div>
+          <!--Step 2-->
+          <div class="w6section">
+            <div class="w6number">2.</div>
+            <div class="w6title">Wycena zlecenia</div>
+            <div id="w6icon2" onclick="desc(2)"></div>
+            <div id="w6icon22" onclick="desc()"></div>
+          </div>
+          <!--Step 2 DESCRIPTION-->
+          <div id="w6sectionactive2">
+            Po przeprowadzeniu rozmowy, wycenimy zlecenie w podanej przez Ciebie konfiguracji.
+            Wyjaśnimy co składa się na tą kwotę oraz dopuścimy możliwość negocjacji ceny.
+          </div>
+          <!--Step 3-->
+          <div class="w6section">
+            <div class="w6number">3.</div>
+            <div class="w6title">Projekt usługi</div>
+            <div id="w6icon3" onclick="desc(3)"></div>
+            <div id="w6icon33" onclick="desc()"></div>
+          </div>
+          <!--Step 3 DESCRIPTION-->
+          <div id="w6sectionactive3">
+            Po ustaleniu ceny, sporządzimy dla Ciebie projekt. W tym procesie ściśle współpracujemy z Tobą
+            aby produkt odpowiadał Ci w 100%.
+          </div>
+          <!--Step 4-->
+          <div class="w6section">
+            <div class="w6number">4.</div>
+            <div class="w6title">Proces tworzenia produktu</div>
+            <div id="w6icon4" onclick="desc(4)"></div>
+            <div id="w6icon44" onclick="desc()"></div>
+          </div>
+          <!--Step 4 DESCRIPTION-->
+          <div id="w6sectionactive4">
+            Gdy już zaakceptujemy projekt przyjdzie czas na stworzenie strony. W ustalonym wspólnie czasie,
+            nasz zespół będzie pracował nad przełożeniem projektu w rzeczywistość.
+          </div>
+          <!--Step 5-->
+          <div class="w6section">
+            <div class="w6number">5.</div>
+            <div class="w6title">Prezentacja gotowego dzieła</div>
+            <div id="w6icon5" onclick="desc(5)"></div>
+            <div id="w6icon55" onclick="desc()"></div>
+          </div>
+          <!--Step 5 DESCRIPTION-->
+          <div id="w6sectionactive5">
+            Po skończonym procesie tworzenia, zaprezentujemy Ci finalną wersję produktu, jest to ostatnia
+            szansa aby dokonać małych zmian oraz przekazać nam kilka uwag. 
+          </div>
+          <!--Step 6-->
+          <div class="w6section">
+            <div class="w6number">6.</div>
+            <div class="w6title">FINISH!</div>
+            <div id="w6icon6" onclick="desc(6)"></div>
+            <div id="w6icon66" onclick="desc()"></div>
+          </div>
+          <!--Step 6 DESCRIPTION-->
+          <div id="w6sectionactive6">
+            Gdy produkt będzie w pełni gotowy będziemy mogli zakończyć zlecenie. Liczymy, żę będziesz zadowolony
+            z naszych usług oraz chętnie polecisz nas innym!
+          </div>
+        </div>
+      </div>
+<!-- 
+    =============================================
+
+    Wrapper7
+
+    =============================================
+  -->
+    <div id="wrapper7">
+      <!--tITLE-->
+      <div class="w7maintext">Oto kilka <a>naszych realizacji</a>!</div>
+      <!--BOXES-->
+      <div class="w7container">
+        <!--Portfolio 1-->
+        <div class="w7section">
+          <div class="w7sectionleft">
+            <div class="w7sectiontitle">
+              Nazwa strony
+            </div>
+            <div class="w7sectiondescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium assumenda laborum aliquid consectetur error quam
+              excepturi quaerat odit sint, aliquam unde corrupti quibusdam.
+            </div>
+            <div class="w7button">
+              <a href="#" style="color: white;
+              text-decoration: none;"><div class="w7btn">Zobacz</div></a>
+            </div>
+          </div>
+          <div class="w7sectionpic1"></div>
+        </div>
+        <!--Portfolio 2-->
+        <div class="w7section">
+          <div class="w7sectionleft">
+            <div class="w7sectiontitle">
+              Nazwa strony
+            </div>
+            <div class="w7sectiondescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              commodi porro vero, veritatis explicabo repellat nostrum natus
+              rerum culpa aperiam magnam, velit accusantium temporibus sit
+              voluptates nulla.
+            </div>
+              <div class="w7button">
+                <a href="#" style="color: white;
+                text-decoration: none;"><div class="w7btn">Zobacz</div></a>
+              </div>
+          </div>
+          <div class="w7sectionpic2"></div>
+        </div>
+        <!--Portfolio 3-->
+        <div class="w7section">
+          <div class="w7sectionleft">
+            <div class="w7sectiontitle">
+              Nazwa strony
+            </div>
+            <div class="w7sectiondescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium assumenda laborum aliquid consectetur error quam
+              excepturi quaerat odit sint, aliquam unde corrupti quibusdam.
+            </div>
+            <div class="w7button">
+              <a href="#" style="color: white;
+              text-decoration: none;"><div class="w7btn">Zobacz</div></a>
+            </div>
+          </div>
+          <div class="w7sectionpic1"></div>
+        </div>
+        <!--Portfolio 4-->
+        <div class="w7section">
+          <div class="w7sectionleft">
+            <div class="w7sectiontitle">
+              Nazwa strony
+            </div>
+            <div class="w7sectiondescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium assumenda laborum aliquid consectetur error quam
+              excepturi quaerat odit sint, aliquam unde corrupti quibusdam.
+            </div>
+            <div class="w7button">
+              <a href="#" style="color: white;
+              text-decoration: none;"><div class="w7btn">Zobacz</div></a>
+            </div>
+          </div>
+          <div class="w7sectionpic1"></div>
+        </div>
+      </div>
+    </div>
+<!-- 
+    =============================================
+
+    Wrapper8
+
+    =============================================
+  -->
+<div id="wrapper8">
+  <!--Title and contact form-->
+  <div class="w8section1">
+    <div class="w8s1bar">
+      Zostańmy w kontakcie!
+    </div>
+    <div class="w8s1container">
+      <form method="POST" action="form.php" >
+        <input type="text"
+         name="imie" 
+         id="name"
+         placeholder="Imię"
+         required>
+         <input type="text"
+         name="nazwisko" 
+         id="surname"
+         placeholder="Nazwisko"
+         required>
+         <input type="email" 
+         name="mail" 
+         id="email"
+         placeholder="Adres email"
+         required>
+         <textarea name="message"
+          id="msg"
+          placeholder="Wiadomość"
+          cols="6"
+          rows="10"
+          required></textarea>
+          <button type="submit"
+          id="submit">Wyślij</button>
+      </form>
+    </div>
+  </div>
+  <div class="w8spacer"></div>
+  <!--Socials-->
+  <div class="w8section2">
+    <div class="w8s2container1">
+      <div class="w8mail">
+        kontakt@<a>domena.pl</a>
+      </div>
+     <a href="#" style="text-decoration: none;"><div class="w8facebook">
+        FACEBOOK
+      </div></a>
+      <a href="#" style="text-decoration: none;"><div class="w8instagram">
+        INSTAGRAM
+      </div></a>
+    </div>
+  </div>
+</div>
+<!-- 
+    =============================================
+
+    Wrapper9
+
+    =============================================
+  -->
+  <div class="wrapper9">
+    <div class="w9text">
+      <h1>Skorzystaj z darmowej wyceny!</h1>
+      <h3>Nie jesteś jeszcze zdecydowany? Żaden problem!<br>
+      Wypełnij formularz i uzyskaj wstępną wycenę zlecenia!</h3>
+    </div>
+    <div class="w9section">
+      <div class="w9button">
+        <a href="pricing.html" style="text-decoration: none;"><div class="w9btn">
+          Zobacz!
+        </div></a>
+      </div>
+    </div>
+  </div>
+
+ <!-- 
+
+
+      //////////////// FOOTER \\\\\\\\\\\\\\ 
+  -->
+<div class="footer">
+  <div class="footertitle">
+    SPP_<a>WEB</a>
+  </div>
+  <div class="footerinfo">SPP_WEB 2020. Wszelkie prawa zastrzeżone</div>
+</div>
+<script src="./js/app.js"></script>
+
+
+<script src="./node_modules/sal.js/dist/sal.js"></script>
+<script>
+  sal({
+     threshold:1
+ });
+ </script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper1 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 6%;
+  background-color: #27ae60;
+}
+
+.w1icon {
+  width: 12vmax;
+  height: 12vmax;
+  margin: auto;
+  background-image: url(../img/icons/success.png);
+  background-position: center;
+  background-size: cover;
+  animation-name: el1;
+  animation-duration: 0.2s;
+}
+
+.wrapper1 h1 {
+  text-align: center;
+  font-size: 3vmax;
+  color: white;
+  animation-name: el1;
+  animation-duration: 0.2s;
+}
+
+.wrapper1 h3 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.2vmax;
+  font-weight: 300;
+  animation-name: el1;
+  animation-duration: 0.7s;
+}
+
+.w1container {
+  width: 14vmax;
+  height: 3vmax;
+  margin: auto;
+  margin-top: 4vmax;
+  border-radius: 20px;
+  background-color: white;
+  animation-name: el1;
+  animation-duration: 1.4s;
+}
+
+.containericon {
+  width: 1.8vmax;
+  height: 1.8vmax;
+  margin-top: 0.6vmax;
+  background-image: url(../img/icons/icon14.png);
+  transform: rotate(90deg);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+.containertext {
+  height: 3vmax;
+  width: 11.2vmax;
+  text-align: center;
+  line-height: 3vmax;
+  font-size: 1.4vmax;
+  margin-left: 0.5vmax;
+  float: left;
+  font-weight: 500;
+  color: #27ae60;
+}
+
+.w1container2 {
+  width: 8vmax;
+  height: 2.6vmax;
+  margin: auto;
+  margin-top: 2vmax;
+  animation-name: el1;
+  animation-duration: 2s;
+}
+
+.c2fb,
+.c2insta {
+  width: 2.6vmax;
+  height: 2.6vmax;
+  float: left;
+  background-position: center;
+  background-size: cover;
+}
+
+.c2fb {
+  background-image: url(../img/icons/icon8.png);
+}
+
+.c2insta {
+  background-image: url(../img/icons/icon9.png);
+  float: right;
+}
+
+/*
+  !s////////////////////////////////////////////////////////////////
+  !s////////////////////////////////////////////////////////////////
+  !s////////////////////////////////////////////////////////////////
+  
+  !ANIMATION
+  
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  */
+
+@keyframes el1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*
+  !s////////////////////////////////////////////////////////////////
+  !s////////////////////////////////////////////////////////////////
+  !s////////////////////////////////////////////////////////////////
+  
+  !RESPO
+  
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  !s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  */
+
+@media screen and (orientation: portrait) {
+  .w1icon {
+    width: 24vmax;
+    height: 24vmax;
+  }
+  .wrapper1 h1 {
+    font-size: 6vmax;
+  }
+  .wrapper1 h3 {
+    width: 60%;
+    font-size: 2vmax;
+  }
+
+  .w1container {
+    width: 25vmax;
+    height: 5vmax;
+    margin-top: 7vmax;
+  }
+  .containericon {
+    width: 3.6vmax;
+    height: 3.6vmax;
+    margin-top: 0.7vmax;
+    margin-left: 1vmax;
+  }
+  .containertext {
+    height: 5vmax;
+    width: 20vmax;
+    font-size: 2.2vmax;
+    line-height: 5vmax;
+  }
+  .w1container2 {
+    width: 14vmax;
+    height: 4vmax;
+    margin-top: 4vmax;
+  }
+  .c2fb,
+  .c2insta {
+    width: 4vmax;
+    height: 4vmax;
+  }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .wrapper1 h3 {
+    width: 70%;
+    font-size: 2.1vmax;
+  }
+  .w1container {
+    width: 30vmax;
+  }
+}
